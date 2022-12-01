@@ -900,7 +900,7 @@ h6 {
   padding-bottom: 0;
 }
 
-/* News & Updates */
+/* News*/
 .dashboard .news .post-item+.post-item {
   margin-top: 15px;
 }
@@ -933,7 +933,7 @@ h6 {
   margin-left: 95px;
 }
 
-/* Recent Sales */
+/* Recent */
 .dashboard .recent-sales {
   font-size: 14px;
 }
@@ -954,7 +954,7 @@ h6 {
   padding: 10px 0 0 0;
 }
 
-/* Top Selling */
+/* Top */
 .dashboard .top-selling {
   font-size: 14px;
 }
@@ -1064,19 +1064,6 @@ h6 {
 
 .profile .profile-edit img {
   max-width: 120px;
-}
-
-/*--------------------------------------------------------------
-# F.A.Q Page
---------------------------------------------------------------*/
-.faq .basic h6 {
-  font-size: 18px;
-  font-weight: 600;
-  color: #4154f1;
-}
-
-.faq .basic p {
-  color: #6980aa;
 }
 
 /*--------------------------------------------------------------
@@ -1202,44 +1189,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Error 404
---------------------------------------------------------------*/
-.error-404 {
-  padding: 30px;
-}
-
-.error-404 h1 {
-  font-size: 180px;
-  font-weight: 700;
-  color: #4154f1;
-  margin-bottom: 0;
-  line-height: 150px;
-}
-
-.error-404 h2 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #012970;
-  margin-bottom: 30px;
-}
-
-.error-404 .btn {
-  background: #51678f;
-  color: #fff;
-  padding: 8px 30px;
-}
-
-.error-404 .btn:hover {
-  background: #3e4f6f;
-}
-
-@media (min-width: 992px) {
-  .error-404 img {
-    max-width: 50%;
-  }
-}
-
-/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
@@ -1258,5 +1207,5 @@ h6 {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #0d3985;
 }

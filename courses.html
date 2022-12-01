@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Student Dashboard</title>
+    <title>Courses</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -20,8 +19,12 @@
       rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" />
     <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
@@ -36,7 +39,9 @@
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center justify-content-between">
-        <a href="/student-dashboard.html" class="logo d-flex align-items-center">
+        <a
+          href="/student-dashboard.html"
+          class="logo d-flex align-items-center">
           <img src="assets/img/logo.png" alt="" />
           <span class="d-none d-lg-block">Student</span>
         </a>
@@ -54,13 +59,22 @@
           <!-- End Search Icon-->
 
           <li class="nav-item dropdown pe-3">
-            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle" />
-              <span class="d-none d-md-block dropdown-toggle ps-2">Ekemini Iniunam</span>
+            <a
+              class="nav-link nav-profile d-flex align-items-center pe-0"
+              href="#"
+              data-bs-toggle="dropdown">
+              <img
+                src="assets/img/profile-img.jpg"
+                alt="Profile"
+                class="rounded-circle" />
+              <span class="d-none d-md-block dropdown-toggle ps-2"
+                >Ekemini Iniunam</span
+              >
             </a>
             <!-- End Profile Iamge Icon -->
 
-            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
               <li class="dropdown-header">
                 <h6>Ekemini Iniunam</h6>
                 <span>Student</span>
@@ -70,7 +84,9 @@
               </li>
 
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html">
                   <i class="bi bi-person"></i>
                   <span>My Profile</span>
                 </a>
@@ -80,7 +96,9 @@
               </li>
 
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html">
                   <i class="bi bi-gear"></i>
                   <span>Account Settings</span>
                 </a>
@@ -109,7 +127,7 @@
     <aside id="sidebar" class="sidebar">
       <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
-          <a class="nav-link " href="/student-dashboard.html">
+          <a class="nav-link collapsed" href="/student-dashboard.html">
             <i class="bi bi-grid"></i>
             <span>Dashboard</span>
           </a>
@@ -117,7 +135,9 @@
         <!-- End Dashboard Nav -->
 
         <li class="nav-item">
-          <a class="nav-link collapsed" href="courses.html">
+          <a
+            class="nav-link"
+            href="courses.html">
             <i class="bi bi-menu-button-wide"></i>
             <span>Courses</span>
           </a>
@@ -126,10 +146,18 @@
         <!-- End Components Nav -->
 
         <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-table"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+          <a
+            class="nav-link collapsed"
+            data-bs-target="#tables-nav"
+            data-bs-toggle="collapse"
+            href="#">
+            <i class="bi bi-table"></i><span>Tables</span
+            ><i class="bi bi-chevron-down ms-auto"></i>
           </a>
-          <ul id="tables-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <ul
+            id="tables-nav"
+            class="nav-content collapse"
+            data-bs-parent="#sidebar-nav">
             <li>
               <a href="tables-general.html">
                 <i class="bi bi-circle"></i><span>General Table</span>
@@ -183,11 +211,11 @@
 
     <main id="main" class="main">
       <div class="pagetitle">
-        <h1>Dashboard</h1>
+        <h1>Courses</h1>
         <nav>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="student-dashboard.html">Home</a></li>
-            <li class="breadcrumb-item active">Dashboard</li>
+            <li class="breadcrumb-item active">Courses</li>
           </ol>
         </nav>
       </div>
@@ -195,126 +223,7 @@
 
       <section class="section dashboard">
         <div class="row">
-          <!-- Left side columns -->
-          <div class="col-lg-8">
-            <div class="row">
-              <!-- Sales Card -->
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card sales-card">
-                  <div class="card-body">
-                    <h5 class="card-title">Assignments</h5>
-
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-file-text-fill"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>1</h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Sales Card -->
-
-              <!-- Revenue Card -->
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card revenue-card">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Courses
-                    </h5>
-
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-menu-button-wide"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>2</h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Revenue Card -->
-
-              <!-- Customers Card -->
-              <div class="col-xxl-4 col-xl-12">
-                <div class="card info-card customers-card">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Groups
-                    </h5>
-
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-people"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>2</h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Customers Card -->
-
-              <!-- Reports -->
-              <div class="col-12">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">General <span> Table</span></h5>
-
-                    <!-- Table -->
-
-                  </div>
-                </div>
-              </div>
-              <!-- End Reports -->
-            </div>
-          </div>
-          <!-- End Left side columns -->
-
-          <!-- Right side columns -->
-          <div class="col-lg-4">
-            <!-- Recent Activity -->
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Courses</h5>
-
-                <div class="activity">
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">CS103</div>
-                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
-                    <div class="activity-content">
-                      Introduction to procramming with C++
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">ENG107</div>
-                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
-                    <div class="activity-content">
-                      Engineering Lab
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">CS104</div>
-                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
-                    <div class="activity-content">
-                      Object oriented programming with Java
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-                </div>
-              </div>
-            </div>
-            <!-- End Recent Activity -->
-          </div>
-          <!-- End Right side columns -->
+          
         </div>
       </section>
     </main>
@@ -323,12 +232,15 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
       <div class="copyright">
-        &copy; Copyright <strong><span>Student</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Student</span></strong
+        >. All Rights Reserved
       </div>
     </footer>
     <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center">
       <i class="bi bi-arrow-up-short"></i>
     </a>
 
@@ -345,5 +257,4 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
-
 </html>

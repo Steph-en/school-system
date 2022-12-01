@@ -1,30 +1,47 @@
 /**
-   * Landing Page
-   */
-const left = document.querySelector('.btn');
-const right = document.querySelector('.btn1');
-const container = document.querySelector('.container');
+ * Landing Page
+ */
+const left = document.querySelector(".btn");
+const right = document.querySelector(".btn1");
+const container = document.querySelector(".container");
 
 // Hover Effect
-left.addEventListener('mouseenter', () => container.classList.add('hover-left'));
-left.addEventListener('mouseleave', () => container.classList.remove('hover-left'));
+left.addEventListener("mouseenter", () =>
+    container.classList.add("hover-left")
+);
+left.addEventListener("mouseleave", () =>
+    container.classList.remove("hover-left")
+);
 
-right.addEventListener('mouseenter', () => container.classList.add('hover-right'));
-right.addEventListener('mouseleave', () => container.classList.remove('hover-right'));
+right.addEventListener("mouseenter", () =>
+    container.classList.add("hover-right")
+);
+right.addEventListener("mouseleave", () =>
+    container.classList.remove("hover-right")
+);
 
 // Click Effect
 left.onclick = function () {
-    this.innerHTML = "<div class='loader'></div>"
+    this.innerHTML = "<div class='loader'></div>";
     setTimeout(() => {
-        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>"
+        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
     }, 10000);
-}
+};
 
 right.onclick = function () {
-    this.innerHTML = "<div class='loader'></div>"
+    this.innerHTML = "<div class='loader'></div>";
     setTimeout(() => {
-        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>"
+        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
     }, 10000);
-}
+};
 
-// User objects 
+// Add | Drop Couuses
+const add = document.querySelector("lable.add");
+const drop = document.querySelector("label.drop");
+const addCourse = document.querySelector(".course-add")
+const dropCourse = document.querySelector(".course-drop");
+const listBtn = document.querySelector(".btn-li")
+
+listBtn.addEventListener('click', () => {
+    addCourse.classList.add("cod")
+})
