@@ -22,7 +22,7 @@ a:hover {
   text-decoration: none;
 }
 
-.taga{
+.taga {
   color: #fff;
 }
 
@@ -479,7 +479,7 @@ h6 {
   list-style: none;
 }
 
-.header-nav>ul {
+.header-nav > ul {
   margin: 0;
   padding: 0;
 }
@@ -648,7 +648,6 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-
   #main,
   #footer {
     margin-left: 300px;
@@ -662,7 +661,6 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-
   .toggle-sidebar #main,
   .toggle-sidebar #footer {
     margin-left: 0;
@@ -901,7 +899,7 @@ h6 {
 }
 
 /* News*/
-.dashboard .news .post-item+.post-item {
+.dashboard .news .post-item + .post-item {
   margin-top: 15px;
 }
 
@@ -1155,7 +1153,7 @@ h6 {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #4154f1;
   border: 0;
   padding: 10px 30px;
@@ -1164,7 +1162,7 @@ h6 {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #5969f3;
 }
 
@@ -1187,6 +1185,11 @@ h6 {
     transform: rotate(360deg);
   }
 }
+
+/*--------------------------------------------------------------
+# Chat box
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Footer

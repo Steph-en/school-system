@@ -7,41 +7,23 @@ const container = document.querySelector(".container");
 
 // Hover Effect
 left.addEventListener("mouseenter", () =>
-    container.classList.add("hover-left")
+  container.classList.add("hover-left")
 );
 left.addEventListener("mouseleave", () =>
-    container.classList.remove("hover-left")
+  container.classList.remove("hover-left")
 );
 
 right.addEventListener("mouseenter", () =>
-    container.classList.add("hover-right")
+  container.classList.add("hover-right")
 );
 right.addEventListener("mouseleave", () =>
-    container.classList.remove("hover-right")
+  container.classList.remove("hover-right")
 );
 
 // Click Effect
 left.onclick = function () {
-    this.innerHTML = "<div class='loader'></div>";
-    setTimeout(() => {
-        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
-    }, 10000);
+  this.innerHTML = "<div class='loader'></div>";
+  setTimeout(() => {
+    this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
+  }, 10000);
 };
-
-right.onclick = function () {
-    this.innerHTML = "<div class='loader'></div>";
-    setTimeout(() => {
-        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
-    }, 10000);
-};
-
-// Add | Drop Couuses
-const add = document.querySelector("lable.add");
-const drop = document.querySelector("label.drop");
-const addCourse = document.querySelector(".course-add")
-const dropCourse = document.querySelector(".course-drop");
-const listBtn = document.querySelector(".btn-li")
-
-listBtn.addEventListener('click', () => {
-    addCourse.classList.add("cod")
-})
