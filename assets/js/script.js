@@ -27,3 +27,4 @@ left.onclick = function () {
     this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
   }, 10000);
 };
+

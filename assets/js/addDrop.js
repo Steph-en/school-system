@@ -173,3 +173,4 @@ function getMsg(flag, element) {
     }, 4000);
   }
 }
+

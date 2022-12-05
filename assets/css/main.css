@@ -376,6 +376,21 @@ input[type="radio"] {
   display: none;
 }
 
+/* Box */
+.box{
+  margin: 1rem;
+  background-color: rgb(145, 193, 233);
+}
+
+.box h2{
+  margin: 10px;
+}
+
+.box p{
+  padding: 10px;
+}
+
+
 /* CRUD */
 .d-flex input {
   margin: 0.9em 0em;
