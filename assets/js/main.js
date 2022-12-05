@@ -340,21 +340,26 @@
 })();
 
 const addForm = document.querySelector("form.add");
-const dropRadio = document.getElementById("radio.drop");
 const addLable = document.querySelector("label.add");
 const dropLable = document.querySelector("label.drop");
 
 dropLable.onclick = () => {
   addForm.style.marginLeft = "-50%";
-  dropRadio.style.marginRight = "0";
 };
 
 addLable.onclick = () => {
   addForm.style.marginLeft = "0%";
 };
 
-const addCourse = document.querySelector(".addCo");
-const addBtn = document.querySelector(".btn-li-add");
+function myfun() {
+  var x = document.querySelectorAll("form.dropSection");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 
 var socket;
 window.onload = function () {
