@@ -10,4 +10,4 @@ drop.addEventListener('click', () => {
     dropCourse.classList.add('nact')
 })
 
-console.log(dropCourse)
+// console.log(dropCourse)
