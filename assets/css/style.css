@@ -66,40 +66,7 @@ h6 {
   margin-bottom: 0;
   font-weight: 600;
   color: #012970;
-}
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 99999;
-  background: #4154f1;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 24px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
+}x
 
 /*--------------------------------------------------------------
 # Override some default Bootstrap stylings
@@ -898,39 +865,6 @@ h6 {
   padding-bottom: 0;
 }
 
-/* News*/
-.dashboard .news .post-item + .post-item {
-  margin-top: 15px;
-}
-
-.dashboard .news img {
-  width: 80px;
-  float: left;
-  border-radius: 5px;
-}
-
-.dashboard .news h4 {
-  font-size: 15px;
-  margin-left: 95px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.dashboard .news h4 a {
-  color: #012970;
-  transition: 0.3s;
-}
-
-.dashboard .news h4 a:hover {
-  color: #4154f1;
-}
-
-.dashboard .news p {
-  font-size: 14px;
-  color: #777777;
-  margin-left: 95px;
-}
-
 /* Recent */
 .dashboard .recent-sales {
   font-size: 14px;
@@ -972,42 +906,6 @@ h6 {
 .dashboard .top-selling img {
   border-radius: 5px;
   max-width: 60px;
-}
-
-/*--------------------------------------------------------------
-# Icons list page
---------------------------------------------------------------*/
-.iconslist {
-  display: grid;
-  max-width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.25rem;
-  padding-top: 15px;
-}
-
-.iconslist .icon {
-  background-color: #fff;
-  border-radius: 0.25rem;
-  text-align: center;
-  color: #012970;
-  padding: 15px 0;
-}
-
-.iconslist i {
-  margin: 0.25rem;
-  font-size: 2.5rem;
-}
-
-.iconslist .label {
-  font-family: var(--bs-font-monospace);
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  padding: 0.25rem;
-  font-size: 12px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #666;
 }
 
 /*--------------------------------------------------------------
