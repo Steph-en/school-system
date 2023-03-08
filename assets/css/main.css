@@ -368,7 +368,7 @@ input[type="radio"] {
   background: rgb(80, 124, 160);
 }
 
-.act{
+.nact {
   display: block;
 }
 
