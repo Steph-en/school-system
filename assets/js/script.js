@@ -34,3 +34,11 @@ right.onclick = function () {
     this.innerHTML = "<a href='./login.html' class='btn'>Login</a>";
   }, 10000);
 };
+
+// async function apiCall(){
+//   const res = await fetch("https://api.api-ninjas.com/v1/country?name=Ghana");
+//   const jsonData = await res.json();
+
+//   console.log({jsonData});
+//   console.log(jsonData);
+// }

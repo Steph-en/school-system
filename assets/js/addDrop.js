@@ -1,4 +1,4 @@
-  import prodb, { bulkcreate, createEle, getData, SortObj } from "./module.js";
+import prodb, { bulkcreate, createEle, getData, SortObj } from "./module.js";
 
 let db = prodb("Productdb", {
   products: `++id, name, seller, price`,

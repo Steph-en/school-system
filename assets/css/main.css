@@ -370,11 +370,9 @@ input[type="radio"] {
 
 .nact {
   display: block;
-}
-
-.nact{
   display: none;
 }
+
 
 /* Box */
 .box{
